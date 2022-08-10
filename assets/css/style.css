@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700;800&family=Special+Elite&display=swap");
+/* font-family: 'Exo', sans-serif;
+font-family: 'Special Elite', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---- HEADER ----*/
+
+header {
+  height: 100vh;
+  background-image: url(../img/bg.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+header nav {
+  width: 100%;
+  background-color: #fff;
+  text-align: right;
+  padding: 20px 0;
+  position: fixed;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: "Special Elite", cursive;
+  color: #000;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+header img {
+  margin-top: 16.3rem;
+}
+
+/* Section 1 */
+
+.box {
+  height: 120vh;
+  background-image: url(/assets/img/beans_icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  scroll-margin-top: 50px;
+}
+
+.div1 {
+  width: 36%;
+  height: 50%;
+  padding: 10rem 0 0 7rem;
+}
+
+.div1 h2 {
+  font-family: "Exo";
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.div1 p {
+  font-family: "Special Elite", cursive;
+  padding-top: 10px;
+  line-height: 17px;
+}
+
+.div2 {
+  height: 36.8%;
+  background-image: url(/assets/img/bridge_1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 110px;
+}
+
+/* Section 2 */
+
+.box2 {
+  height: 135vh;
+  background-image: url(/assets/img/cake_icon.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  align-items: center;
+  scroll-margin-top: 50px;
+}
+
+.fau {
+  margin-top: 0px;
+}
+
+.box2 p {
+  font-family: "Special Elite", cursive;
+}
+
+/* div 1 */
+.fau > a {
+  font-family: "Special Elite", cursive;
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+.fau > img {
+  width: 60px;
+  height: 50px;
+}
+
+.fau > h2 {
+  color: #000;
+  font-family: "Exo", sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 4rem;
+  padding-top: 50px;
+}
+.fau > h3 {
+  font-family: "Exo", sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: #000;
+  padding-top: 20px;
+}
+
+.fau1 {
+  width: 30rem;
+  height: 9rem;
+  border: 1px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 5px 20px 5px 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.fau1 > h2 {
+  font-family: "Exo";
+  font-weight: bolder;
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.fau1 > p {
+  padding-top: 10px;
+  line-height: 23px;
+}
+
+/* div 2 */
+
+.fau2 {
+  width: 30rem;
+  height: 6rem;
+  border: 1px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding: 5px 20px 5px 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.fau2 > h2 {
+  font-family: "Exo";
+  font-weight: bolder;
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.fau2 > p {
+  padding-top: 10px;
+}
+
+/*  h3 HANDMADE COFFEES */
+
+.fau > h3:nth-of-type(2) {
+  font-family: "Exo";
+  font-weight: 900;
+  font-size: 2.1rem;
+  margin-top: 10px;
+}
+
+.fau3 {
+  width: 30rem;
+  height: 7rem;
+  border: 1px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding: 5px 20px 5px 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.fau3 > h2 {
+  font-family: "Exo";
+  font-weight: bolder;
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.fau3 > p {
+  padding-top: 10px;
+}
+
+.fau4 {
+  width: 30rem;
+  height: 7rem;
+  border: 1px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding: 5px 20px 5px 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.fau4 > h2 {
+  font-family: "Exo";
+  font-weight: bolder;
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.fau4 > p {
+  padding-top: 10px;
+}
+
+/* section 3 */
+
+.box3 {
+  height: 140vh;
+  text-align: center;
+  scroll-margin-top: 50px;
+}
+
+.fira {
+  width: 100%;
+  height: 40%;
+  background-image: url(/assets/img/bridge_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.fira2 {
+  width: 28rem;
+  display: inline-block;
+  margin-top: 6.5rem;
+  text-align: left;
+  padding-right: 50px;
+}
+
+.fira2 > h2 {
+  font-family: "Exo";
+  font-weight: 900;
+  font-size: 2.1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.fira2 > p {
+  font-family: "Special Elite", cursive;
+  font-size: 18px;
+}
+
+.fira3 {
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.fira3 > img {
+  width: 18rem;
+  height: 13rem;
+}
+
+/* section4 */
+
+.box4 {
+  height: 120vh;
+  text-align: center;
+  scroll-margin-top: 50px;
+}
+
+.mua {
+  width: 100%;
+  height: 40%;
+  background-image: url(/assets/img/bridge_3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.extra {
+  height: 70%;
+  background-image: url(/assets/img/pie_icon.png);
+  background-size: 35%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.mua2 {
+  width: 28rem;
+  display: inline-block;
+  margin-top: 6.5rem;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.mua2 > h2 {
+  font-family: "Exo";
+  font-weight: 900;
+  font-size: 2.1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mua2 > p {
+  font-family: "Special Elite", cursive;
+  font-size: 18px;
+}
+
+.mua3 {
+  display: inline-block;
+  padding-right: 50px;
+}
+
+.mua3 > img {
+  width: 18rem;
+  height: 13rem;
+}
+
+.mua2 > a {
+  text-decoration: none;
+  border: 1px solid #ccc;
+  padding: 3px 3px;
+  font-family: "Special Elite", cursive;
+  color: #000;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.mua2 > a:hover {
+  text-decoration: underline;
+}
+
+/* section 5 */
+
+.box5 {
+  width: 100%;
+  height: 120vh;
+  text-align: center;
+  scroll-margin-top: 50px;
+}
+
+.hell {
+  width: 100%;
+  height: 40%;
+  background-image: url(/assets/img/bridge_4.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.qutu {
+  height: 70%;
+  background-image: url(/assets/img/muffin_icon.png);
+  background-size: 30%;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.hell2 {
+  width: 26rem;
+  display: inline-block;
+  margin-top: 11.1rem;
+  text-align: left;
+  padding-left: 50px;
+  
+}
+
+.hell2 > h2 {
+  font-family: "Exo";
+  font-weight: 900;
+  font-size: 2.1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.hell2 > p {
+  font-family: "Special Elite", cursive;
+  font-size: 18px;
+}
+
+.hell3 {
+  display: inline-block;
+  padding-right: 50px;
+ 
+}
+
+.hell3 > img {
+  width: 18rem;
+  height: 13rem;
+}
+
+.hell2 > a {
+  text-decoration: none;
+  border: 1px solid #ccc;
+  padding: 3px 3px;
+  font-family: "Special Elite", cursive;
+  color: #000;
+  display: inline-block;
+}
+
+.hell2 > a:hover {
+  text-decoration: underline;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+  align-items: center;
+  background-color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer > h2 {
+  font-family: "Exo";
+  font-weight: 900;
+  font-size: 2rem;
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+
+footer > p {
+  font-family: "Special Elite", cursive;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+footer div {
+  width: 50px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer > a {
+  display: inline-block;
+  padding-top: 10px;
+}
+footer > img {
+  width: 120px;
+}
+
+footer > img {
+  margin-top: 10px;
+}
