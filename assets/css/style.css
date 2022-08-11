@@ -353,7 +353,8 @@ header img {
 
 .mua2 > a {
   text-decoration: none;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
+  border: 1px solid rgb(239, 0, 0);
   padding: 3px 3px;
   font-family: "Special Elite", cursive;
   color: #000;
@@ -427,7 +428,8 @@ header img {
 
 .hell2 > a {
   text-decoration: none;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
+  border: 1px solid rgb(89, 18, 230);
   padding: 3px 3px;
   font-family: "Special Elite", cursive;
   color: #000;
